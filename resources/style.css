@@ -1,0 +1,159 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #222021; 
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 2.25rem;
+}
+
+p {
+    font-size: 1.8rem;
+    color: #544C4A;
+}
+
+span {
+    font-size: 1.75rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Nav Section */
+
+div.nav-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.nav-item {
+    text-decoration: underline;
+    font-size: 1.8rem;
+    width: 300px;
+    text-align: center;
+}
+
+/* Banner Section */
+
+.banner {
+    background-image: url(./images/tokyo-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.banner-item {
+    background-color: white;
+    width: 100%;
+}
+
+
+
+/* Portfolio Section */
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 80px;
+} 
+
+
+.portfolio-container li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    padding-top: 25px;
+} 
+
+.devil-img {
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+span {
+    text-align: center;
+    min-width: 45%;
+}
+
+/* Special Divison Section  */
+
+.team-banner {
+    background-image: url(./images/tokyo-background-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    text-align: center; 
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-item {
+    margin-top: 20px;
+    width: 400px;
+    height: 65%;
+}
+
+.team-item img {
+    max-width: 100%;
+    height: 400px;
+}
+
+.team-item p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* Contact and Copyright Section */
+
+.contact, .copyright {
+    text-align: center;
+}
+
+.contact {
+    margin: 45px 0;
+}
